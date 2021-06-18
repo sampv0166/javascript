@@ -1,0 +1,5 @@
+length = find the length of the array
+push = array.push() = push an element to the end of the array
+pop = array.pop() = reomve one element from end of the array and returns the value that was removed.
+shift = array.shift() = removes one element from the starting of the array
+unshift = array.unshift() = adds and element to the beginning of the array
