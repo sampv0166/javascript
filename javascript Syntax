@@ -1,10 +1,14 @@
 switch
 ------
-switch(lowercaseLetter) {
-  case "a":
-    console.log("A");
+switch (num) {
+  case value1:
+    statement1;
     break;
-  case "b":
-    console.log("B");
+  case value2:
+    statement2;
+    break;
+...
+  default:
+    defaultStatement;
     break;
 }
