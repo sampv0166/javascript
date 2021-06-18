@@ -1,6 +1,10 @@
-function syntax
----------------------
-function functionName()
-{
-  console.log("Hello World");
+switch
+------
+switch(lowercaseLetter) {
+  case "a":
+    console.log("A");
+    break;
+  case "b":
+    console.log("B");
+    break;
 }
