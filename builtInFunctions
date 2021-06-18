@@ -4,3 +4,13 @@ pop = array.pop() = reomve one element from end of the array and returns the val
 shift = array.shift() = removes one element from the starting of the array
 unshift = array.unshift() = adds and element to the beginning of the array
 typeof = returns the type of the variable
+delete = to delete a property from a an object
+hasOwnProperty = myObj.hasOwnProperty("propname") = we can use this function to check weather the property name exists on the object
+Math.Random() = returns a random decimal number.
+Math.Floor() = round the number to its nearest whole number
+---------------------------------------------------------------------
+parseInt("007") gives the output as 7
+parseInt converts a string to integer , if the first character in the string cannot be converted into a number it returns Nan
+parseInt can also take radix as a parameter
+parseInt("11",2) = the radix vaiable says that 11 is in the binary system or base 2.
+--------------------------------------------------------------------------------------------
