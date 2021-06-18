@@ -12,3 +12,15 @@ switch (num) {
     defaultStatement;
     break;
 }
+
+
+Nested Ternary Operator
+--------------------------
+
+function findGreaterOrEqual(a, b)
+{
+     return 
+    (a === b) ? "a and b are equal" 
+    : (a > b) ? "a is greater" 
+    : "b is greater";
+}
