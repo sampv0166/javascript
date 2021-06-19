@@ -33,3 +33,62 @@ thet are constant value , which means once variable is assigned with const , it 
 When using const keyword with array ,  you can change the  array elements but cannot re-assign the whole array to something new .
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+Arrow fuunction syntax
+-----------------------
+const myFunc = () => {
+  const myVar = "value";
+  return myVar;
+}
+
+const myFunc = () => "value";
+
+const multiplier = (item, multi) => item * multi;
+multiplier(4, 2);
+
+Default parameter for arrow functions
+--------------------------------
+const greeting = (name = "Anonymous") => "Hello " + name;
+
+rest parameter = ...args
+-------------------------
+rest parameter can take any number of arguments , it will be stored in an array and we can access them inside the fuunction.
+
+spread operator
+-------------------------
+const arr = [6, 89, 3, 45];
+const maximus = Math.max(...arr);
+maximus would have a value of 89.
+
+----------------------------------------------------------------------------------------------------------------------------
+Destructuring assignment
+---------------------------
+const user = { name: 'John Doe', age: 34 };
+const { name, age } = user;
+name would have a value of the string John Doe, and age would have the number 34.
+---------------------------------
+Detructring allows you to assigns a new variable name when extractin values.
+we can do this by putting a new name after colon when assigning value.
+
+const { name: userName, age: userAge } = user;
+
+Use Destructuring Assignment to Assign Variables from Nested Objects
+-----------------------------------------------------------------------
+const user = {
+  johnDoe: { 
+    age: 34,
+    email: 'johnDoe@freeCodeCamp.com'
+  }
+};
+
+And here's how you can assign an object properties' values to variables with different names:
+
+const { johnDoe: { age: userAge, email: userEmail }} = user;
+
+Array Destructuring
+---------------------
+const [a, b] = [1, 2, 3, 4, 5, 6];
+console.log(a, b);
+
+const [a, b,,, c] = [1, 2, 3, 4, 5, 6];
+console.log(a, b, c);
+
