@@ -12,8 +12,6 @@ switch (num) {
     defaultStatement;
     break;
 }
-
-
 Nested Ternary Operator
 --------------------------
 
@@ -24,3 +22,14 @@ function findGreaterOrEqual(a, b)
     : (a > b) ? "a is greater" 
     : "b is greater";
 }
+
+declaring a variable in javascript
+--------------------------------------
+var keyword
+let keyword
+-------------------------------------------------------------------------------------------------------------------------------------
+const keyword = it has all features that let has plus teh varibales declated using const keyword are Read-only.
+thet are constant value , which means once variable is assigned with const , it cannnot be re-assigned.
+When using const keyword with array ,  you can change the  array elements but cannot re-assign the whole array to something new .
+------------------------------------------------------------------------------------------------------------------------------------------
+
