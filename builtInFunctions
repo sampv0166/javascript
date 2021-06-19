@@ -14,3 +14,5 @@ parseInt converts a string to integer , if the first character in the string can
 parseInt can also take radix as a parameter
 parseInt("11",2) = the radix vaiable says that 11 is in the binary system or base 2.
 --------------------------------------------------------------------------------------------
+freeze = obj.freeze = const declaration alone doesnt really protect the data from mutation,, to ensure data doesn't change we can use the function freeze.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
